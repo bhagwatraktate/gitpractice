@@ -21,7 +21,7 @@ def lambda_handler(event, context):
             'Content-Type': 'application/json'
         },
         'body': json.dumps({
-            'message': 'EC2 instances fetched successfully!',
+            'message': 'EC2 fetched successfully!',
             'instances': instance_ids
         })
     }
